@@ -42,10 +42,6 @@ This project is a multilingual data input website created using C#, ASP.NET MVC.
 - CSS
 - JavaScript (if applicable)
 
-## Contributors
-
-- [Your Name](https://github.com/your-username)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
