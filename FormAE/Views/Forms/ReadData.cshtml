@@ -1,0 +1,48 @@
+﻿@model FormAE.Models.StudentModel
+
+<div class="container">
+   
+    <div class="row">
+        <img src="https://portal.zuj.edu.jo/faces/javax.faces.resource/images/login/login-image.png?ln=barcelona-layout" class="image-zuj" alt="Alternate Text" />
+        <div class="col-7 box-zuj">
+            <div class="data-header">
+                <h2 class="color-white">You Are Choose the  @Html.DisplayFor(model => model.lang) Language</h2>
+            </div>
+            <div class="p-4">
+                <table class="table">
+              <tbody>
+                <tr>
+                  <th scope="row">University ID</th>
+                  <td>@Html.DisplayFor(model => model.Id)</td>
+                </tr>
+                <tr>
+                  <th scope="row">full name</th>
+                  <td>@Html.DisplayFor(model => model.FullName)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Major</th>
+                  <td>@Html.DisplayFor(model => model.Major)</td>
+                </tr>
+                <tr>
+                  <th scope="row">date Birthday</th>
+                  <td>@Html.DisplayFor(model => model.Birthday)</td>
+                </tr>
+                <tr>
+                  <th scope="row">gender</th>
+                  <td>@Html.DisplayFor(model => model.gender)</td>
+                </tr>
+                <tr>
+                  <th scope="row">date start at the university</th>
+                  <td>@Html.DisplayFor(model => model.DateStart)</td>
+                </tr>
+                <tr>
+                  <th scope="row">date End at the university</th>
+                  <td>@Html.DisplayFor(model => model.DateEnd)</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+           
+        </div
+    </div>
+</div>
